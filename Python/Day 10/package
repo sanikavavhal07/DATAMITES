@@ -1,0 +1,11 @@
+What is a Python Package?
+
+Python Packages are a way to organize and structure your Python code into reusable components. Think of it like a folder that contains related Python files (modules) that work together to provide certain functionality. Packages help keep your code organized, make it easier to manage and maintain, and allow you to share your code with others. They’re like a toolbox where you can store and organize your tools (functions and classes) for easy access and reuse in different projects.
+
+Code Example
+
+Create a directory named mypackage.
+Inside mypackage, create two Python files: module1.py and module2.py.
+Create an __init__.py file inside mypackage (it can be empty).
+Add some code to the modules.
+Finally, demonstrate how to import and use the modules from the package.
