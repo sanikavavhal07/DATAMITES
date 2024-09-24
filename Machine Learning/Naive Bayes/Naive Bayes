@@ -1,0 +1,26 @@
+**The problem statement:**
+
+You are planning a picnic today, but the morning is cloudy
+
+Oh no! 50% of all rainy days start off cloudy!
+But cloudy mornings are common (about 40% of days start cloudy)
+And this is usually a dry month (only 3 of 30 days tend to be rainy, or 10%)
+What is the chance of rain during the day?
+
+We will use Rain to mean rain during the day, and Cloud to mean cloudy morning.
+
+The chance of Rain given Cloud is written P(Rain|Cloud)
+
+So let's put that in the formula:
+
+$P(Rain|Cloud) = \frac{P(Rain)*P(Cloud|Rain)} {P(Cloud)}$          
+                      
+ 
+
+- P(Rain) is Probability of Rain = 10%
+- P(Cloud|Rain) is Probability of Cloud, given that Rain happens = 50%
+- P(Cloud) is Probability of Cloud = 40%
+
+$P(Rain|Cloud) =  \frac{(0.1 x 0.5)} {0.4}   = .125$
+
+Or a 12.5% chance of rain. Not too bad, let's have a picnic!
